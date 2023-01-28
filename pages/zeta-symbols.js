@@ -35,7 +35,7 @@ export default function textrepeater() {
 
 
       <div className='p-4  '>
-        <div style="text-align: left;"></div><p>Zeta symbol for copy paste.</p>
+        <div className='text-left'></div><p>Zeta symbol for copy paste.</p>
         <div className="area">
           <span className="bt" onClick={copy} data-clipboard-text="	Ζ	">	Ζ	</span>
           <span className="bt" onClick={copy} data-clipboard-text="	ζ	">	ζ	</span>

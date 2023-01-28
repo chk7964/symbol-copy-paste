@@ -24,51 +24,7 @@ export default function textrepeater() {
     });
   }
 
-  const handleClick = () => {
-    var Text = document.querySelector('#text').value;
-    var repeats = document.querySelector('#number').value;
-    var i = 1;
-    for (i = 1; i <= repeats; i++) {
-      document.querySelector("#text1").value += Text + "\n";
-    };
-    document.querySelector('#repeatButton1').setAttribute("disabled", true);
-    document.querySelector('#repeatButton2').setAttribute("disabled", true);
-    document.querySelector('#repeatButton1').innerHTML = 'Repeated';
-  }
 
-  const handleClick1 = () => {
-    var Text = document.querySelector('#text').value;
-    var repeats = document.querySelector('#number').value;
-    var i = 1;
-    for (i = 1; i <= repeats; i++) {
-      document.getElementById("text1").value += Text + " ";
-    };
-    document.getElementById("repeatButton2").disabled = true;
-    document.getElementById("repeatButton1").disabled = true;
-    document.getElementById("repeatButton2").innerHTML = "Repeated";
-  }
-
-  const reset = (e) => {
-    document.querySelector('#repeatButton1').removeAttribute("disabled");
-    document.querySelector('#repeatButton2').removeAttribute("disabled");
-    document.querySelector('#repeatButton1').innerHTML = "Repeat (New Line)"
-    document.querySelector('#repeatButton2').innerHTML = 'Repeat (Same Line)';
-    document.querySelector("#text").value = "";
-    document.querySelector("#text1").value = "";
-    document.querySelector("#number").value = "";
-  }
-
-  // const btest = () => {
-  //   alert("Great Shot!");
-  // }
-  // function createMarkup() { return {__html: 'lorem <b>ipsum</b>'}; };
-
-  const btest = (event) => {
-
-    // let test = document.getElementById('banner').innerHTML;
-    //   alert(test);
-
-  }
   return (
     <>
       <NextSeo
@@ -80,7 +36,7 @@ export default function textrepeater() {
 
 
       <div className='p-4  '>
-        <b>{fullwidth}</b><div>If you finding Scissors symbol for copy paste then you are on right website. See below&nbsp;Scissors symbol for copy paste.<br />
+        <div>If you finding Scissors symbol for copy paste then you are on right website. See below&nbsp;Scissors symbol for copy paste.<br />
           <div className="area">
             <span className="bt" onClick={copy} data-clipboard-text="	✀	">	✀	</span>
             <span className="bt" onClick={copy} data-clipboard-text="	✁	">	✁	</span>

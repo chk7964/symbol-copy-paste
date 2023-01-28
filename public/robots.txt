@@ -7,7 +7,7 @@ User-agent: SemrushBot
 Disallow: /
 
 # Host
-Host: https://text-repeater.lotusbit.com/
+Host: https://symbol.lotusbit.com/
 
 # Sitemaps
-Sitemap: https://text-repeater.lotusbit.com/sitemap.xml
+Sitemap: https://symbol.lotusbit.com/sitemap.xml
