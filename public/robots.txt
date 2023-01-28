@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# SemrushBot
+User-agent: SemrushBot
+Disallow: /
+
+# Host
+Host: https://text-repeater.lotusbit.com/
+
+# Sitemaps
+Sitemap: https://text-repeater.lotusbit.com/sitemap.xml
