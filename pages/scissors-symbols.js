@@ -36,14 +36,16 @@ export default function textrepeater() {
 
 
       <div className='p-4  '>
-        <div>If you finding Scissors symbol for copy paste then you are on right website. See below&nbsp;Scissors symbol for copy paste.<br />
-          <div className="area">
-            <span className="bt" onClick={copy} data-clipboard-text="	✀	">	✀	</span>
-            <span className="bt" onClick={copy} data-clipboard-text="	✁	">	✁	</span>
-            <span className="bt" onClick={copy} data-clipboard-text="	✂	">	✂	</span>
-            <span className="bt" onClick={copy} data-clipboard-text="	✃	">	✃	</span>
-            <span className="bt" onClick={copy} data-clipboard-text="	✄	">	✄	</span>
-          </div><br /><table>
+        <div>If you finding Scissors symbol for copy paste then you are on right website. See below&nbsp;Scissors symbol for copy paste.<br /></div>
+        <div className="area">
+          <span className="bt" onClick={copy} data-clipboard-text="	✀	">	✀	</span>
+          <span className="bt" onClick={copy} data-clipboard-text="	✁	">	✁	</span>
+          <span className="bt" onClick={copy} data-clipboard-text="	✂	">	✂	</span>
+          <span className="bt" onClick={copy} data-clipboard-text="	✃	">	✃	</span>
+          <span className="bt" onClick={copy} data-clipboard-text="	✄	">	✄	</span>
+        </div><br />
+        <div className='overflow-x-auto'>
+          <table>
             <thead><tr><th>Scissors Symbol</th><th>Symbol Name</th><th>Dec Code</th><th>Hex Code</th><th>Unicode</th></tr></thead>
             <tbody>
               <tr>

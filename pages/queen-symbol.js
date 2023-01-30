@@ -88,53 +88,54 @@ export default function textrepeater() {
           <span className="bt" onClick={copy} data-clipboard-text="	🃍	">	🃍	</span>
           <span className="bt" onClick={copy} data-clipboard-text="	🃝	">	🃝	</span></div>
         <br />
-        <table>
-          <thead><tr><th>Queen Symbol</th><th>Symbol Name</th><th>Dec Code</th><th>Hex Code</th><th>Unicode</th></tr></thead>
-          <tbody>
-            <tr>
-              <td>♕</td>
-              <td>White Chess Queen</td>
-              <td>&amp;#9813;</td>
-              <td>&amp;#x2655</td>
-              <td>U+2655</td>
-            </tr>
-            <tr>
-              <td>♛</td>
-              <td>Black Chess Queen</td>
-              <td>&amp;#9819;</td>
-              <td>&amp;#x265B</td>
-              <td>U+265B</td>
-            </tr>
-            <tr>
-              <td>🂭</td>
-              <td>Playing Card Queen of Spades</td>
-              <td>&amp;#127149;</td>
-              <td>&amp;#x1F0AD</td>
-              <td>U+1F0AD</td>
-            </tr>
-            <tr>
-              <td>🂽</td>
-              <td>Playing Card Queen of Hearts</td>
-              <td>&amp;#127165;</td>
-              <td>&amp;#x1F0BD</td>
-              <td>U+1F0BD</td>
-            </tr>
-            <tr>
-              <td>🃍</td>
-              <td>Playing Card Queen of Diamonds</td>
-              <td>&amp;#127181;</td>
-              <td>&amp;#x1F0CD</td>
-              <td>U+1F0CD</td>
-            </tr>
-            <tr>
-              <td>🃝</td>
-              <td>Playing Card Queen of Clubs</td>
-              <td>&amp;#127197;</td>
-              <td>&amp;#x1F0DD</td>
-              <td>U+1F0DD</td>
-            </tr>
-          </tbody></table>
-
+        <div className='overflow-x-auto'>
+          <table>
+            <thead><tr><th>Queen Symbol</th><th>Symbol Name</th><th>Dec Code</th><th>Hex Code</th><th>Unicode</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>♕</td>
+                <td>White Chess Queen</td>
+                <td>&amp;#9813;</td>
+                <td>&amp;#x2655</td>
+                <td>U+2655</td>
+              </tr>
+              <tr>
+                <td>♛</td>
+                <td>Black Chess Queen</td>
+                <td>&amp;#9819;</td>
+                <td>&amp;#x265B</td>
+                <td>U+265B</td>
+              </tr>
+              <tr>
+                <td>🂭</td>
+                <td>Playing Card Queen of Spades</td>
+                <td>&amp;#127149;</td>
+                <td>&amp;#x1F0AD</td>
+                <td>U+1F0AD</td>
+              </tr>
+              <tr>
+                <td>🂽</td>
+                <td>Playing Card Queen of Hearts</td>
+                <td>&amp;#127165;</td>
+                <td>&amp;#x1F0BD</td>
+                <td>U+1F0BD</td>
+              </tr>
+              <tr>
+                <td>🃍</td>
+                <td>Playing Card Queen of Diamonds</td>
+                <td>&amp;#127181;</td>
+                <td>&amp;#x1F0CD</td>
+                <td>U+1F0CD</td>
+              </tr>
+              <tr>
+                <td>🃝</td>
+                <td>Playing Card Queen of Clubs</td>
+                <td>&amp;#127197;</td>
+                <td>&amp;#x1F0DD</td>
+                <td>U+1F0DD</td>
+              </tr>
+            </tbody></table>
+        </div>
       </div>
 
 

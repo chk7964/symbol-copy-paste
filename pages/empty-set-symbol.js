@@ -45,54 +45,55 @@ export default function textrepeater() {
           <span className="bt" onClick={copy} data-clipboard-text="	⦳	">	⦳	</span>
           <span className="bt" onClick={copy} data-clipboard-text="	⦴	">	⦴	</span></div>
         <br />
-        <table>
-          <thead><tr><th>Empty Set Symbol</th><th>Symbol Name</th><th>Dec Code</th><th>Hex Code</th><th>Unicode</th></tr></thead>
-          <tbody>
-            <tr>
-              <td>∅</td>
-              <td>Empty Set</td>
-              <td>&amp;#8709;</td>
-              <td>&amp;#x2205</td>
-              <td>U+2205</td>
-            </tr>
-            <tr>
-              <td>⦰</td>
-              <td>Reversed Empty Set</td>
-              <td>&amp;#10672;</td>
-              <td>&amp;#x29B0</td>
-              <td>U+29B0</td>
-            </tr>
-            <tr>
-              <td>⦱</td>
-              <td>Empty Set with Overbar</td>
-              <td>&amp;#10673;</td>
-              <td>&amp;#x29B1</td>
-              <td>U+29B1</td>
-            </tr>
-            <tr>
-              <td>⦲</td>
-              <td>Empty Set with Small Circle Above</td>
-              <td>&amp;#10674;</td>
-              <td>&amp;#x29B2</td>
-              <td>U+29B2</td>
-            </tr>
-            <tr>
-              <td>⦳</td>
-              <td>Empty Set with Right Arrow Above</td>
-              <td>&amp;#10675;</td>
-              <td>&amp;#x29B3</td>
-              <td>U+29B3</td>
-            </tr>
-            <tr>
-              <td>⦴</td>
-              <td>Empty Set with Left Arrow Above</td>
-              <td>&amp;#10676;</td>
-              <td>&amp;#x29B4</td>
-              <td>U+29B4</td>
-            </tr>
-          </tbody></table>
+        <div className='overflow-x-auto'>
+          <table>
+            <thead><tr><th>Empty Set Symbol</th><th>Symbol Name</th><th>Dec Code</th><th>Hex Code</th><th>Unicode</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>∅</td>
+                <td>Empty Set</td>
+                <td>&amp;#8709;</td>
+                <td>&amp;#x2205</td>
+                <td>U+2205</td>
+              </tr>
+              <tr>
+                <td>⦰</td>
+                <td>Reversed Empty Set</td>
+                <td>&amp;#10672;</td>
+                <td>&amp;#x29B0</td>
+                <td>U+29B0</td>
+              </tr>
+              <tr>
+                <td>⦱</td>
+                <td>Empty Set with Overbar</td>
+                <td>&amp;#10673;</td>
+                <td>&amp;#x29B1</td>
+                <td>U+29B1</td>
+              </tr>
+              <tr>
+                <td>⦲</td>
+                <td>Empty Set with Small Circle Above</td>
+                <td>&amp;#10674;</td>
+                <td>&amp;#x29B2</td>
+                <td>U+29B2</td>
+              </tr>
+              <tr>
+                <td>⦳</td>
+                <td>Empty Set with Right Arrow Above</td>
+                <td>&amp;#10675;</td>
+                <td>&amp;#x29B3</td>
+                <td>U+29B3</td>
+              </tr>
+              <tr>
+                <td>⦴</td>
+                <td>Empty Set with Left Arrow Above</td>
+                <td>&amp;#10676;</td>
+                <td>&amp;#x29B4</td>
+                <td>U+29B4</td>
+              </tr>
+            </tbody></table>
+        </div>
       </div>
-
 
     </>
   )
